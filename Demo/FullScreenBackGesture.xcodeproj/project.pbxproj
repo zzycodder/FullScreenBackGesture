@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDEE7AA91DED2AFF00DA56BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE7AA81DED2AFF00DA56BD /* main.m */; };
+		EDEE7AAC1DED2AFF00DA56BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE7AAB1DED2AFF00DA56BD /* AppDelegate.m */; };
+		EDEE7AAF1DED2AFF00DA56BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE7AAE1DED2AFF00DA56BD /* ViewController.m */; };
+		EDEE7AB21DED2AFF00DA56BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEE7AB01DED2AFF00DA56BD /* Main.storyboard */; };
+		EDEE7AB41DED2AFF00DA56BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEE7AB31DED2AFF00DA56BD /* Assets.xcassets */; };
+		EDEE7AB71DED2AFF00DA56BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEE7AB51DED2AFF00DA56BD /* LaunchScreen.storyboard */; };
+		EDEE7AC21DED2AFF00DA56BD /* FullScreenBackGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE7AC11DED2AFF00DA56BD /* FullScreenBackGestureTests.m */; };
+		EDEE7ACD1DED2AFF00DA56BD /* FullScreenBackGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE7ACC1DED2AFF00DA56BD /* FullScreenBackGestureUITests.m */; };
+		EDEE7ADC1DED2BA000DA56BD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE7ADB1DED2BA000DA56BD /* BaseViewController.m */; };
+		EDEE7ADF1DED2BCA00DA56BD /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE7ADE1DED2BCA00DA56BD /* PushViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDEE7ABE1DED2AFF00DA56BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEE7A9C1DED2AFF00DA56BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEE7AA31DED2AFF00DA56BD;
+			remoteInfo = FullScreenBackGesture;
+		};
+		EDEE7AC91DED2AFF00DA56BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEE7A9C1DED2AFF00DA56BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEE7AA31DED2AFF00DA56BD;
+			remoteInfo = FullScreenBackGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDEE7AA41DED2AFF00DA56BD /* FullScreenBackGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullScreenBackGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE7AA81DED2AFF00DA56BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDEE7AAA1DED2AFF00DA56BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDEE7AAB1DED2AFF00DA56BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDEE7AAD1DED2AFF00DA56BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDEE7AAE1DED2AFF00DA56BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDEE7AB11DED2AFF00DA56BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDEE7AB31DED2AFF00DA56BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDEE7AB61DED2AFF00DA56BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDEE7AB81DED2AFF00DA56BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEE7ABD1DED2AFF00DA56BD /* FullScreenBackGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullScreenBackGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE7AC11DED2AFF00DA56BD /* FullScreenBackGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenBackGestureTests.m; sourceTree = "<group>"; };
+		EDEE7AC31DED2AFF00DA56BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEE7AC81DED2AFF00DA56BD /* FullScreenBackGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullScreenBackGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE7ACC1DED2AFF00DA56BD /* FullScreenBackGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenBackGestureUITests.m; sourceTree = "<group>"; };
+		EDEE7ACE1DED2AFF00DA56BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEE7ADA1DED2BA000DA56BD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EDEE7ADB1DED2BA000DA56BD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EDEE7ADD1DED2BCA00DA56BD /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		EDEE7ADE1DED2BCA00DA56BD /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDEE7AA11DED2AFF00DA56BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE7ABA1DED2AFF00DA56BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE7AC51DED2AFF00DA56BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDEE7A9B1DED2AFF00DA56BD = {
+			isa = PBXGroup;
+			children = (
+				EDEE7AA61DED2AFF00DA56BD /* FullScreenBackGesture */,
+				EDEE7AC01DED2AFF00DA56BD /* FullScreenBackGestureTests */,
+				EDEE7ACB1DED2AFF00DA56BD /* FullScreenBackGestureUITests */,
+				EDEE7AA51DED2AFF00DA56BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEE7AA51DED2AFF00DA56BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE7AA41DED2AFF00DA56BD /* FullScreenBackGesture.app */,
+				EDEE7ABD1DED2AFF00DA56BD /* FullScreenBackGestureTests.xctest */,
+				EDEE7AC81DED2AFF00DA56BD /* FullScreenBackGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDEE7AA61DED2AFF00DA56BD /* FullScreenBackGesture */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE7AAA1DED2AFF00DA56BD /* AppDelegate.h */,
+				EDEE7AAB1DED2AFF00DA56BD /* AppDelegate.m */,
+				EDEE7AAD1DED2AFF00DA56BD /* ViewController.h */,
+				EDEE7AAE1DED2AFF00DA56BD /* ViewController.m */,
+				EDEE7ADA1DED2BA000DA56BD /* BaseViewController.h */,
+				EDEE7ADB1DED2BA000DA56BD /* BaseViewController.m */,
+				EDEE7ADD1DED2BCA00DA56BD /* PushViewController.h */,
+				EDEE7ADE1DED2BCA00DA56BD /* PushViewController.m */,
+				EDEE7AB01DED2AFF00DA56BD /* Main.storyboard */,
+				EDEE7AB31DED2AFF00DA56BD /* Assets.xcassets */,
+				EDEE7AB51DED2AFF00DA56BD /* LaunchScreen.storyboard */,
+				EDEE7AB81DED2AFF00DA56BD /* Info.plist */,
+				EDEE7AA71DED2AFF00DA56BD /* Supporting Files */,
+			);
+			path = FullScreenBackGesture;
+			sourceTree = "<group>";
+		};
+		EDEE7AA71DED2AFF00DA56BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE7AA81DED2AFF00DA56BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDEE7AC01DED2AFF00DA56BD /* FullScreenBackGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE7AC11DED2AFF00DA56BD /* FullScreenBackGestureTests.m */,
+				EDEE7AC31DED2AFF00DA56BD /* Info.plist */,
+			);
+			path = FullScreenBackGestureTests;
+			sourceTree = "<group>";
+		};
+		EDEE7ACB1DED2AFF00DA56BD /* FullScreenBackGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE7ACC1DED2AFF00DA56BD /* FullScreenBackGestureUITests.m */,
+				EDEE7ACE1DED2AFF00DA56BD /* Info.plist */,
+			);
+			path = FullScreenBackGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDEE7AA31DED2AFF00DA56BD /* FullScreenBackGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEE7AD11DED2AFF00DA56BD /* Build configuration list for PBXNativeTarget "FullScreenBackGesture" */;
+			buildPhases = (
+				EDEE7AA01DED2AFF00DA56BD /* Sources */,
+				EDEE7AA11DED2AFF00DA56BD /* Frameworks */,
+				EDEE7AA21DED2AFF00DA56BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullScreenBackGesture;
+			productName = FullScreenBackGesture;
+			productReference = EDEE7AA41DED2AFF00DA56BD /* FullScreenBackGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDEE7ABC1DED2AFF00DA56BD /* FullScreenBackGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEE7AD41DED2AFF00DA56BD /* Build configuration list for PBXNativeTarget "FullScreenBackGestureTests" */;
+			buildPhases = (
+				EDEE7AB91DED2AFF00DA56BD /* Sources */,
+				EDEE7ABA1DED2AFF00DA56BD /* Frameworks */,
+				EDEE7ABB1DED2AFF00DA56BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEE7ABF1DED2AFF00DA56BD /* PBXTargetDependency */,
+			);
+			name = FullScreenBackGestureTests;
+			productName = FullScreenBackGestureTests;
+			productReference = EDEE7ABD1DED2AFF00DA56BD /* FullScreenBackGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDEE7AC71DED2AFF00DA56BD /* FullScreenBackGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEE7AD71DED2AFF00DA56BD /* Build configuration list for PBXNativeTarget "FullScreenBackGestureUITests" */;
+			buildPhases = (
+				EDEE7AC41DED2AFF00DA56BD /* Sources */,
+				EDEE7AC51DED2AFF00DA56BD /* Frameworks */,
+				EDEE7AC61DED2AFF00DA56BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEE7ACA1DED2AFF00DA56BD /* PBXTargetDependency */,
+			);
+			name = FullScreenBackGestureUITests;
+			productName = FullScreenBackGestureUITests;
+			productReference = EDEE7AC81DED2AFF00DA56BD /* FullScreenBackGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDEE7A9C1DED2AFF00DA56BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ZHANGZHONGYANG;
+				TargetAttributes = {
+					EDEE7AA31DED2AFF00DA56BD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BR9NK93Y23;
+						ProvisioningStyle = Automatic;
+					};
+					EDEE7ABC1DED2AFF00DA56BD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDEE7AA31DED2AFF00DA56BD;
+					};
+					EDEE7AC71DED2AFF00DA56BD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDEE7AA31DED2AFF00DA56BD;
+					};
+				};
+			};
+			buildConfigurationList = EDEE7A9F1DED2AFF00DA56BD /* Build configuration list for PBXProject "FullScreenBackGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDEE7A9B1DED2AFF00DA56BD;
+			productRefGroup = EDEE7AA51DED2AFF00DA56BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDEE7AA31DED2AFF00DA56BD /* FullScreenBackGesture */,
+				EDEE7ABC1DED2AFF00DA56BD /* FullScreenBackGestureTests */,
+				EDEE7AC71DED2AFF00DA56BD /* FullScreenBackGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDEE7AA21DED2AFF00DA56BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE7AB71DED2AFF00DA56BD /* LaunchScreen.storyboard in Resources */,
+				EDEE7AB41DED2AFF00DA56BD /* Assets.xcassets in Resources */,
+				EDEE7AB21DED2AFF00DA56BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE7ABB1DED2AFF00DA56BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE7AC61DED2AFF00DA56BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDEE7AA01DED2AFF00DA56BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE7AAF1DED2AFF00DA56BD /* ViewController.m in Sources */,
+				EDEE7ADF1DED2BCA00DA56BD /* PushViewController.m in Sources */,
+				EDEE7ADC1DED2BA000DA56BD /* BaseViewController.m in Sources */,
+				EDEE7AAC1DED2AFF00DA56BD /* AppDelegate.m in Sources */,
+				EDEE7AA91DED2AFF00DA56BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE7AB91DED2AFF00DA56BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE7AC21DED2AFF00DA56BD /* FullScreenBackGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE7AC41DED2AFF00DA56BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE7ACD1DED2AFF00DA56BD /* FullScreenBackGestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDEE7ABF1DED2AFF00DA56BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEE7AA31DED2AFF00DA56BD /* FullScreenBackGesture */;
+			targetProxy = EDEE7ABE1DED2AFF00DA56BD /* PBXContainerItemProxy */;
+		};
+		EDEE7ACA1DED2AFF00DA56BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEE7AA31DED2AFF00DA56BD /* FullScreenBackGesture */;
+			targetProxy = EDEE7AC91DED2AFF00DA56BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDEE7AB01DED2AFF00DA56BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEE7AB11DED2AFF00DA56BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDEE7AB51DED2AFF00DA56BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEE7AB61DED2AFF00DA56BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDEE7ACF1DED2AFF00DA56BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDEE7AD01DED2AFF00DA56BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDEE7AD21DED2AFF00DA56BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR9NK93Y23;
+				INFOPLIST_FILE = FullScreenBackGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.FullScreenBackGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDEE7AD31DED2AFF00DA56BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR9NK93Y23;
+				INFOPLIST_FILE = FullScreenBackGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.FullScreenBackGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDEE7AD51DED2AFF00DA56BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FullScreenBackGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.FullScreenBackGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullScreenBackGesture.app/FullScreenBackGesture";
+			};
+			name = Debug;
+		};
+		EDEE7AD61DED2AFF00DA56BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FullScreenBackGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.FullScreenBackGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullScreenBackGesture.app/FullScreenBackGesture";
+			};
+			name = Release;
+		};
+		EDEE7AD81DED2AFF00DA56BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FullScreenBackGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.FullScreenBackGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FullScreenBackGesture;
+			};
+			name = Debug;
+		};
+		EDEE7AD91DED2AFF00DA56BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FullScreenBackGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.FullScreenBackGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FullScreenBackGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDEE7A9F1DED2AFF00DA56BD /* Build configuration list for PBXProject "FullScreenBackGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE7ACF1DED2AFF00DA56BD /* Debug */,
+				EDEE7AD01DED2AFF00DA56BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEE7AD11DED2AFF00DA56BD /* Build configuration list for PBXNativeTarget "FullScreenBackGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE7AD21DED2AFF00DA56BD /* Debug */,
+				EDEE7AD31DED2AFF00DA56BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDEE7AD41DED2AFF00DA56BD /* Build configuration list for PBXNativeTarget "FullScreenBackGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE7AD51DED2AFF00DA56BD /* Debug */,
+				EDEE7AD61DED2AFF00DA56BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDEE7AD71DED2AFF00DA56BD /* Build configuration list for PBXNativeTarget "FullScreenBackGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE7AD81DED2AFF00DA56BD /* Debug */,
+				EDEE7AD91DED2AFF00DA56BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDEE7A9C1DED2AFF00DA56BD /* Project object */;
+}
